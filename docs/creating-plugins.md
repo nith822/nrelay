@@ -322,7 +322,7 @@ console.log('Player name: ' + client.playerData.name);
 The `Logger` class allows you to log messages with senders and log levels.
 Firstly, you need to import the `Logger` class exports
 ```typescript
-import { NrPlugin, HookPacket, Packet, PacketType, Client, Log, SeveryityLevel } from './../core/plugin-module';
+import { NrPlugin, HookPacket, Packet, PacketType, Client, Log, SeverityLevel } from './../core/plugin-module';
 //                                                         ^^^^^^^^^^^^^^^^^^^
 ```
 `SeverityLevel` is an enum which describes the type of message you are trying to log. It consists of
