@@ -10,3 +10,7 @@ src/plugins/*
 
 # Config
 acc-config.json
+
+# IDE Files
+.settings
+.project
