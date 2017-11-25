@@ -98,7 +98,7 @@ export class PacketIO {
                 throw new Error('Invalid packet id.');
             }
         } catch (err) {
-            Log('PacketIO', 'Couldn\'t read packet size/id.', SeverityLevel.Error);
+            Log('PacketIO', 'Couldn\'t read packet size/id.' + packetId, SeverityLevel.Error);
             return;
         }
         if (packetSize === data.length) {
@@ -131,7 +131,7 @@ export class PacketIO {
                 throw new Error('Invalid packet id.');
             }
         } catch (err) {
-            Log('PacketIO', 'Couldn\'t read packet size/id.', SeverityLevel.Error);
+            Log('PacketIO', 'Couldn\'t read packet size/id.' + packetId, SeverityLevel.Error);
             return;
         }
 

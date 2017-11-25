@@ -183,5 +183,5 @@ export enum PacketType {
     CancelTrade = 100,
     TradeDone = 25,
     TradeAccepted = 6,
-    ServerPlayerShoot = 90
+    ServerPlayerShoot = 90,
 }
